@@ -87,7 +87,7 @@ export default function WorkGallery() {
         </div>
 
         {/* CONTAINER DO CARROSSEL */}
-        <div className="relative h-[300px] sm:h-[550px] w-full overflow-hidden rounded-xl border border-gray-900 bg-matrix-card shadow-2xl group">
+        <div className="relative h-[300px] sm:h-[600px] w-full overflow-hidden rounded-xl border border-gray-900 bg-matrix-card shadow-2xl group">
           
           <AnimatePresence initial={false} custom={direction} mode="popLayout">
             <motion.img

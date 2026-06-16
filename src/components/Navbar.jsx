@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* LOGO AREA */}
-        <a href="#" className="flex items-center gap-3 group">
+        <a href="/" className="flex items-center gap-3 group">
           <img 
             src="/logo3.png" 
             alt="Nexus Oficina Logo" 
