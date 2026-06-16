@@ -10,6 +10,7 @@ import ScrollReveal from './components/ScrollReveal'; // <-- Importe o novo Wrap
 import TeamSection from './sections/TeamSection';
 import WorkGallery from './sections/WorkGallery';
 import Footer from './components/Footer';
+import MovingCarSection from './sections/MovingCarSection';
 
 export default function App() {
   return (
@@ -36,6 +37,9 @@ export default function App() {
       <ScrollReveal>
         <WorkGallery /> {/* <-- Posicione aqui */}
       </ScrollReveal>
+
+      {/* Seção Interativa do Carro (Não precisa de ScrollReveal pois ela se move pelo próprio scroll) */}
+      <MovingCarSection /> {/* <-- Posicione aqui */}
 
       <ScrollReveal>
         <TeamSection /> {/* <-- Posicione aqui abaixo do Sobre e acima dos Serviços */}
