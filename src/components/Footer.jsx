@@ -15,7 +15,7 @@ export default function Footer() {
         {/* COLUNA 1: LOGO E SOBRE (4 colunas) */}
         <div className="md:col-span-4 space-y-4">
           <img 
-            src="/logo.png" 
+            src="/logo_oficial.jpg" 
             alt="Nexus Oficina Logo" 
             className="h-9 w-auto object-contain"
           />

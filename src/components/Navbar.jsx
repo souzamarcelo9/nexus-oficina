@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* LOGO AREA */}
         <a href="/" className="flex items-center gap-3 group">
           <img 
-            src="/logo3.png" 
+            src="/logo_oficial.jpg" 
             alt="Nexus Oficina Logo" 
             className="h-10 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
           />

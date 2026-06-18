@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const SLIDES = [
   {type: 'image', src:'/slid2.png'}, // Imagem do HB20/Módulo
+  {type: 'image', src:'/foto5.jpg'}, // Imagem institucional
   {type: 'image', src:'/servicos.png'}, // Imagem institucional
   {type: 'image', src:'/slid1.png'},
   {type: 'image',src:'/slid3.png'},

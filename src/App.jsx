@@ -11,6 +11,8 @@ import TeamSection from './sections/TeamSection';
 import WorkGallery from './sections/WorkGallery';
 import Footer from './components/Footer';
 import MovingCarSection from './sections/MovingCarSection';
+import TestimonialsSection from './sections/TestimonialsSection';
+import LocationSection from './sections/LocationSection';
 
 export default function App() {
   return (
@@ -49,6 +51,10 @@ export default function App() {
       <ScrollReveal>
         <SpecialHighlight />
       </ScrollReveal>
+
+      {/* Novas Seções Inseridas no Fluxo */}
+      <ScrollReveal><TestimonialsSection /></ScrollReveal> {/* <-- Adicionado aqui */}
+      <ScrollReveal><LocationSection /></ScrollReveal>     {/* <-- Adicionado aqui */}
 
       {/* Formulário de Captura de Leads */}
       <ScrollReveal>
